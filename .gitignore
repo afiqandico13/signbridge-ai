@@ -1,20 +1,2 @@
-cat > .gitignore << 'EOF'
-# Dataset & video mentah (terlalu besar)
-data/raw/
-data/processed/
-*.zip
-
-# Environment & secrets
-.env
-__pycache__/
-*.pyc
-*.pyo
-
-# File sementara Windows
-Thumbs.db
-desktop.ini
-
-# Virtual environment
-venv/
-env/
-EOF
+models/*.h5 
+models/*.pkl 
